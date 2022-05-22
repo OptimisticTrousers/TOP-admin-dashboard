@@ -15,6 +15,11 @@
     grid-area: sidebar;
     background-color: #60A5FA;
     align-content: start;
+    gap: 50px;
+}
+
+.first-half, .second-half{
+    font-size: 2rem;
 }
 
 main{
@@ -68,10 +73,17 @@ aside{
 
     display: flex;
     justify-content: start;
+    font-size: 3rem;
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 /* https://stackoverflow.com/questions/5093427/css-using-images-instead-of-bullets */
 
+ul > li{
+    color: white;
+}
 .first-half > li:nth-child(1){
 
     list-style-image: url("/assets/home-outline.svg")
