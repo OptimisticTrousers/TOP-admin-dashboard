@@ -1,4 +1,5 @@
 .container{
+
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 4fr;
@@ -9,6 +10,7 @@
 }
 
 .sidebar{
+
     display: grid;
     grid-area: sidebar;
     background-color: #60A5FA;
@@ -16,6 +18,7 @@
 }
 
 main{
+
     display: grid;
     grid-area: main;
     background-color: gray;
@@ -23,15 +26,19 @@ main{
 }
 
 .projects{
+
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 24px;
 }
+
 .projects > .card{
+
     background-color: white;
 }
 
 header{
+
     display: grid;
     grid-area: header;
     background-color: white;
@@ -39,17 +46,38 @@ header{
 }
 
 .top-header{
+
     display: grid;
     grid-auto-flow: column;
 }
 
 .bottom-header{
+
     display: grid;
     grid-auto-flow: column;
 }
 
 aside{
+
     display: grid;
     grid-area: aside;
     
+}
+
+.logo{
+
+    display: flex;
+    justify-content: start;
+}
+
+/* https://stackoverflow.com/questions/5093427/css-using-images-instead-of-bullets */
+
+.first-half > li:nth-child(1){
+
+    list-style-image: url("/assets/home.svg")
+}
+
+.first-half > li:nth-child(1){
+
+    list-style-image: url("/assets/card-account-details.svg")
 }
