@@ -78,6 +78,26 @@ header{
     flex: 1;
 }
 
+.profile-greeting{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    grid-template-areas:
+    "image greeting"
+    "image name";
+}
+
+.profile-greeting > .greeting{
+    grid-area: greeting;
+}
+.profile-greeting > img{
+    grid-area: image;
+}
+.profile-greeting > .name{
+    grid-area: name;
+}
+
 .search-bar{
     justify-content: start;
     margin-left: 2rem;
