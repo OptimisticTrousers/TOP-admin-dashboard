@@ -16,6 +16,7 @@ main{
     display: grid;
     grid-area: main;
     background-color: gray;
+    grid-auto-flow: column;
 }
 
 .projects{
@@ -26,6 +27,17 @@ header{
     display: grid;
     grid-area: header;
     background-color: white;
+    gap: 20px;
+}
+
+.top-header{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.bottom-header{
+    display: grid;
+    grid-auto-flow: column;
 }
 
 aside{
