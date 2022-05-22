@@ -115,6 +115,18 @@ header{
     grid-auto-flow: column;
 }
 
+button{
+    padding: 0.75rem 2.5rem;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 aside{
 
     display: grid;
@@ -132,7 +144,7 @@ aside{
     align-items: center;
 }
 
-button{
+.button-1, .button-2, .button-3{
     background-color: #60A5FA;
     color: white;
 }
