@@ -1,0 +1,35 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas: 
+    "sidebar header header"
+    "sidebar main aside";
+}
+
+.sidebar{
+    display: grid;
+    grid-area: sidebar;
+    background-color: #60A5FA;
+}
+
+main{
+    display: grid;
+    grid-area: main;
+    background-color: gray;
+}
+
+.projects{
+    display: grid;
+}
+
+header{
+    display: grid;
+    grid-area: header;
+    background-color: white;
+}
+
+aside{
+    display: grid;
+    grid-area: aside;
+    
+}
