@@ -12,6 +12,7 @@
     display: grid;
     grid-area: sidebar;
     background-color: #60A5FA;
+    align-content: start;
 }
 
 main{
