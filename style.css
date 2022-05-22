@@ -28,6 +28,7 @@ main{
     grid-area: main;
     background-color: gray;
     grid-auto-flow: column;
+    gap: 40px;
 }
 
 .projects{
@@ -131,7 +132,9 @@ aside{
 
     display: grid;
     grid-area: aside;
-    
+}
+
+.content{
 }
 
 .logo{
