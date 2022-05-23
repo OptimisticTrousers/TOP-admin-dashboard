@@ -68,6 +68,8 @@ header{
     background-color: white;
     gap: 20px;
     margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
 }
 .content{
     background-color: white;
@@ -90,7 +92,7 @@ header{
 
 .profile-greeting{
     display: grid;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     column-gap: 10px;
     grid-template-areas:
