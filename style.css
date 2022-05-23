@@ -51,6 +51,16 @@ main{
     gap: 26px;
 }
 
+.card > p:nth-child(2){
+    padding-bottom: 3rem;
+}
+.icons{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
 .image{
     display: flex;
     justify-content: end;
