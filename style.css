@@ -51,6 +51,13 @@ main{
     font-weight: 600;
 }
 
+.title{
+    display: flex;
+    align-self: center;
+    justify-content: start;
+    padding-left: 2rem;
+}
+
 header{
 
     display: grid;
