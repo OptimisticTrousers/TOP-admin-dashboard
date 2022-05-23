@@ -76,6 +76,7 @@ header{
     margin-bottom: 1rem;
     padding-top: 1rem;
     padding-left: 2rem;
+    padding-right: 2rem;
     font-family: Mukta;
 }
 .content{
@@ -114,6 +115,7 @@ img{
 .title{
     font-family: Mukta;
 }
+
 
 .profile-greeting{
     display: grid;
@@ -171,7 +173,8 @@ button{
 .buttons{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: end;
+    gap: 40px;
 }
 
 aside{
