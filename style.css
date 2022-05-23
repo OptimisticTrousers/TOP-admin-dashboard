@@ -36,7 +36,7 @@ main{
 
     display: grid;
     grid-area: main;
-    padding: 0 40px;
+    padding: 0 20px;
     padding-bottom: 3rem;
     background-color: #e2e8f0;
     grid-auto-flow: column;
@@ -47,8 +47,8 @@ main{
 .projects{
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 3fr));
+    gap: 26px;
 }
 
 .image{
@@ -157,17 +157,26 @@ img{
 }
 
 .announcements{
-    padding: 1rem;
-    background-color: #e2e8f0;
+    padding: 2rem;
+    background-color: #ffffff;
     display: grid;
     justify-content: center;
 }
 
 .trending{
     display: grid;
-    padding: 1rem;
-    background-color: #e2e8f0;
+    padding: 2rem;
+    background-color: #ffffff;
 }
+
+.announcements > .content:nth-child(1){
+    border-bottom: 3px solid #f3f3f3;
+}
+
+.announcements > .content:nth-child(2){
+    border-bottom: 3px solid #f3f3f3;
+}
+
 .search-bar{
     justify-content: start;
     margin-left: 2rem;
@@ -181,6 +190,10 @@ img{
 
 .notifications > img{
     cursor: pointer;
+}
+
+.description{
+    color: #747474;
 }
 
 .bottom-header{
