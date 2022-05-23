@@ -28,7 +28,6 @@ main{
     grid-area: main;
     background-color: gray;
     grid-auto-flow: column;
-    gap: 40px;
 }
 
 
@@ -37,7 +36,6 @@ main{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 24px;
-    margin: auto;
 }
 
 .projects > .card{
