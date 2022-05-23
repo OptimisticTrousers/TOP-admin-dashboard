@@ -26,7 +26,8 @@ main{
 
     display: grid;
     grid-area: main;
-    padding-left: 40px;
+    padding: 0 40px;
+    padding-bottom: 3rem;
     background-color: gray;
     grid-auto-flow: column;
     column-gap: 40px;
