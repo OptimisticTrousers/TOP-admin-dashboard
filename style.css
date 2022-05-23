@@ -175,6 +175,8 @@ img{
 
 .trending{
     display: grid;
+    grid-template-columns: 100px 2fr;
+    align-items: center;
     padding: 2rem;
     background-color: #ffffff;
 }
