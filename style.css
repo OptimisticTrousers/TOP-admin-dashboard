@@ -78,6 +78,8 @@ main{
 
 .projects > .card{
 
+    display: flex;
+    flex-direction: column;
     background-color: white;
     border-radius: 6px;
     padding: 1rem 2rem;
@@ -171,12 +173,16 @@ img{
     padding: 2rem;
     background-color: #ffffff;
     display: grid;
+    border-radius: 10px;
+    box-shadow: 10px 20px #e2e8f0;
     justify-content: center;
 }
 
 .trending{
     display: grid;
     padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 10px 20px #e2e8f0;
     background-color: #ffffff;
 }
 .trending > .content{
@@ -234,6 +240,7 @@ aside{
 
     display: grid;
     grid-area: aside;
+    grid-template-columns: 350px;
 }
 
 .sidebar > .logo{
