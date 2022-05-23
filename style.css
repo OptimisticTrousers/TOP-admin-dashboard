@@ -26,8 +26,10 @@ main{
 
     display: grid;
     grid-area: main;
+    padding-left: 40px;
     background-color: gray;
     grid-auto-flow: column;
+    column-gap: 40px;
 }
 
 
@@ -89,7 +91,7 @@ header{
     display: grid;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    column-gap: 10px;
     grid-template-areas:
     "image greeting"
     "image name";
