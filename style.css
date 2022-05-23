@@ -100,6 +100,7 @@ header{
     padding-left: 2rem;
     padding-right: 2rem;
     font-family: Mukta;
+    box-shadow: 30px 10px #e2e8f0;
 }
 .content{
     background-color: white;
