@@ -51,6 +51,21 @@ main{
     gap: 24px;
 }
 
+.image{
+    display: flex;
+    justify-content: end;
+    padding-right: 1rem;
+}
+
+.bottom-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-greeting{
+    padding-left: 1rem;
+}
+
 .projects > .card{
 
     background-color: white;
@@ -64,7 +79,6 @@ main{
     font-weight: 600;
 }
 
-
 header{
 
     display: grid;
@@ -72,6 +86,7 @@ header{
     background-color: white;
     gap: 20px;
     padding-top: 1rem;
+    padding-bottom: 0.5rem;
     padding-left: 2rem;
     padding-right: 2rem;
     font-family: Mukta;
@@ -108,10 +123,12 @@ header{
 input{
     background-color: #e2e8f0;
     border-radius: 50px;
+    border: 0;
 }
 
 img{
     border-radius: 6px;
+    cursor: pointer;
 }
 
 .title{
@@ -121,9 +138,8 @@ img{
 
 
 .profile-greeting{
-    display: grid;
-    justify-content: start;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
     column-gap: 10px;
     grid-template-areas:
     "image greeting"
@@ -163,6 +179,10 @@ img{
     gap: 30px;
 }
 
+.notifications > img{
+    cursor: pointer;
+}
+
 .bottom-header{
 
     display: grid;
@@ -199,6 +219,8 @@ aside{
     justify-content: start;
     font-size: 2.5rem;
     color: white;
+    justify-content: start;
+    align-items: center;
     justify-content: flex-start;
     align-items: center;
 }
