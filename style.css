@@ -175,10 +175,12 @@ img{
 
 .trending{
     display: grid;
-    grid-template-columns: 100px 2fr;
-    align-items: center;
     padding: 2rem;
     background-color: #ffffff;
+}
+.trending > .content{
+    border-bottom: 1px solid #747474;
+    margin-bottom: 1rem;
 }
 
 .announcements > .content:nth-child(1){
