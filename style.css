@@ -28,7 +28,9 @@ main{
     grid-area: main;
     background-color: gray;
     grid-auto-flow: column;
+    gap: 40px;
 }
+
 
 .projects{
 
@@ -98,6 +100,15 @@ header{
     grid-area: name;
 }
 
+.announcements{
+    padding: 1rem;
+    background-color: blue;
+}
+
+.trending{
+    padding: 1rem;
+    background-color: blue;
+}
 .search-bar{
     justify-content: start;
     margin-left: 2rem;
@@ -108,6 +119,7 @@ header{
     justify-content: center;
     gap: 30px;
 }
+
 
 .bottom-header{
 
@@ -131,8 +143,6 @@ aside{
 
     display: grid;
     grid-area: aside;
-    align-items: start;
-    justify-items: center;
 }
 
 
