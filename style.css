@@ -316,45 +316,45 @@ ul > li{
 
 .first-half > li:nth-child(1){
 
-    list-style-image: url("/assets/home-outline.svg")
+    list-style-image: url("./assets/home-outline.svg")
 }
 
 .first-half > li:nth-child(2){
 
-    list-style-image: url("/assets/card-account-details-outline.svg")
+    list-style-image: url("./assets/card-account-details-outline.svg")
 }
 
 .first-half > li:nth-child(3){
 
-    list-style-image: url("/assets/message-reply-outline.svg")
+    list-style-image: url("./assets/message-reply-outline.svg")
 }
 
 .first-half > li:nth-child(4){
 
-    list-style-image: url("/assets/clock-time-three-outline.svg")
+    list-style-image: url("./assets/clock-time-three-outline.svg")
 }
 
 .first-half > li:nth-child(5){
 
-    list-style-image: url("/assets/note-multiple-outline.svg")
+    list-style-image: url("./assets/note-multiple-outline.svg")
 }
 
 .first-half > li:nth-child(6){
 
-    list-style-image: url("/assets/account-group-outline.svg")
+    list-style-image: url("./assets/account-group-outline.svg")
 }
 
 .second-half > li:nth-child(1){
 
-    list-style-image: url("/assets/cog-outline.svg")
+    list-style-image: url("./assets/cog-outline.svg")
 }
 
 .second-half > li:nth-child(2){
 
-    list-style-image: url("/assets/help-rhombus-outline.svg")
+    list-style-image: url("./assets/help-rhombus-outline.svg")
 }
 
 .second-half > li:nth-child(3){
 
-    list-style-image: url("/assets/shield-check-outline.svg")
+    list-style-image: url("./assets/shield-check-outline.svg")
 }
